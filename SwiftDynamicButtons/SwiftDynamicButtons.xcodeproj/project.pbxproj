@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3023BD71A10022F00C9AC1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3023BD61A10022F00C9AC1F /* AppDelegate.swift */; };
+		F3023BDA1A10022F00C9AC1F /* SwiftDynamicButtons.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3023BD81A10022F00C9AC1F /* SwiftDynamicButtons.xcdatamodeld */; };
+		F3023BDC1A10022F00C9AC1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3023BDB1A10022F00C9AC1F /* ViewController.swift */; };
+		F3023BDF1A10022F00C9AC1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3023BDD1A10022F00C9AC1F /* Main.storyboard */; };
+		F3023BE11A10022F00C9AC1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3023BE01A10022F00C9AC1F /* Images.xcassets */; };
+		F3023BE41A10022F00C9AC1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3023BE21A10022F00C9AC1F /* LaunchScreen.xib */; };
+		F3023BF01A10023000C9AC1F /* SwiftDynamicButtonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3023BEF1A10023000C9AC1F /* SwiftDynamicButtonsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3023BEA1A10023000C9AC1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3023BC91A10022F00C9AC1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3023BD01A10022F00C9AC1F;
+			remoteInfo = SwiftDynamicButtons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3023BD11A10022F00C9AC1F /* SwiftDynamicButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDynamicButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3023BD51A10022F00C9AC1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3023BD61A10022F00C9AC1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3023BD91A10022F00C9AC1F /* SwiftDynamicButtons.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftDynamicButtons.xcdatamodel; sourceTree = "<group>"; };
+		F3023BDB1A10022F00C9AC1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3023BDE1A10022F00C9AC1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3023BE01A10022F00C9AC1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F3023BE31A10022F00C9AC1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F3023BE91A10023000C9AC1F /* SwiftDynamicButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDynamicButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3023BEE1A10023000C9AC1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3023BEF1A10023000C9AC1F /* SwiftDynamicButtonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDynamicButtonsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3023BCE1A10022F00C9AC1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3023BE61A10023000C9AC1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3023BC81A10022F00C9AC1F = {
+			isa = PBXGroup;
+			children = (
+				F3023BD31A10022F00C9AC1F /* SwiftDynamicButtons */,
+				F3023BEC1A10023000C9AC1F /* SwiftDynamicButtonsTests */,
+				F3023BD21A10022F00C9AC1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3023BD21A10022F00C9AC1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3023BD11A10022F00C9AC1F /* SwiftDynamicButtons.app */,
+				F3023BE91A10023000C9AC1F /* SwiftDynamicButtonsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3023BD31A10022F00C9AC1F /* SwiftDynamicButtons */ = {
+			isa = PBXGroup;
+			children = (
+				F3023BD61A10022F00C9AC1F /* AppDelegate.swift */,
+				F3023BDB1A10022F00C9AC1F /* ViewController.swift */,
+				F3023BDD1A10022F00C9AC1F /* Main.storyboard */,
+				F3023BE01A10022F00C9AC1F /* Images.xcassets */,
+				F3023BE21A10022F00C9AC1F /* LaunchScreen.xib */,
+				F3023BD81A10022F00C9AC1F /* SwiftDynamicButtons.xcdatamodeld */,
+				F3023BD41A10022F00C9AC1F /* Supporting Files */,
+			);
+			path = SwiftDynamicButtons;
+			sourceTree = "<group>";
+		};
+		F3023BD41A10022F00C9AC1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3023BD51A10022F00C9AC1F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3023BEC1A10023000C9AC1F /* SwiftDynamicButtonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3023BEF1A10023000C9AC1F /* SwiftDynamicButtonsTests.swift */,
+				F3023BED1A10023000C9AC1F /* Supporting Files */,
+			);
+			path = SwiftDynamicButtonsTests;
+			sourceTree = "<group>";
+		};
+		F3023BED1A10023000C9AC1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3023BEE1A10023000C9AC1F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3023BD01A10022F00C9AC1F /* SwiftDynamicButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3023BF31A10023000C9AC1F /* Build configuration list for PBXNativeTarget "SwiftDynamicButtons" */;
+			buildPhases = (
+				F3023BCD1A10022F00C9AC1F /* Sources */,
+				F3023BCE1A10022F00C9AC1F /* Frameworks */,
+				F3023BCF1A10022F00C9AC1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDynamicButtons;
+			productName = SwiftDynamicButtons;
+			productReference = F3023BD11A10022F00C9AC1F /* SwiftDynamicButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3023BE81A10023000C9AC1F /* SwiftDynamicButtonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3023BF61A10023000C9AC1F /* Build configuration list for PBXNativeTarget "SwiftDynamicButtonsTests" */;
+			buildPhases = (
+				F3023BE51A10023000C9AC1F /* Sources */,
+				F3023BE61A10023000C9AC1F /* Frameworks */,
+				F3023BE71A10023000C9AC1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3023BEB1A10023000C9AC1F /* PBXTargetDependency */,
+			);
+			name = SwiftDynamicButtonsTests;
+			productName = SwiftDynamicButtonsTests;
+			productReference = F3023BE91A10023000C9AC1F /* SwiftDynamicButtonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3023BC91A10022F00C9AC1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Arled;
+				TargetAttributes = {
+					F3023BD01A10022F00C9AC1F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F3023BE81A10023000C9AC1F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F3023BD01A10022F00C9AC1F;
+					};
+				};
+			};
+			buildConfigurationList = F3023BCC1A10022F00C9AC1F /* Build configuration list for PBXProject "SwiftDynamicButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3023BC81A10022F00C9AC1F;
+			productRefGroup = F3023BD21A10022F00C9AC1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3023BD01A10022F00C9AC1F /* SwiftDynamicButtons */,
+				F3023BE81A10023000C9AC1F /* SwiftDynamicButtonsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3023BCF1A10022F00C9AC1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3023BDF1A10022F00C9AC1F /* Main.storyboard in Resources */,
+				F3023BE41A10022F00C9AC1F /* LaunchScreen.xib in Resources */,
+				F3023BE11A10022F00C9AC1F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3023BE71A10023000C9AC1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3023BCD1A10022F00C9AC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3023BDC1A10022F00C9AC1F /* ViewController.swift in Sources */,
+				F3023BDA1A10022F00C9AC1F /* SwiftDynamicButtons.xcdatamodeld in Sources */,
+				F3023BD71A10022F00C9AC1F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3023BE51A10023000C9AC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3023BF01A10023000C9AC1F /* SwiftDynamicButtonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3023BEB1A10023000C9AC1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3023BD01A10022F00C9AC1F /* SwiftDynamicButtons */;
+			targetProxy = F3023BEA1A10023000C9AC1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3023BDD1A10022F00C9AC1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3023BDE1A10022F00C9AC1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3023BE21A10022F00C9AC1F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3023BE31A10022F00C9AC1F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3023BF11A10023000C9AC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3023BF21A10023000C9AC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3023BF41A10023000C9AC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftDynamicButtons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3023BF51A10023000C9AC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftDynamicButtons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3023BF71A10023000C9AC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftDynamicButtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftDynamicButtons.app/SwiftDynamicButtons";
+			};
+			name = Debug;
+		};
+		F3023BF81A10023000C9AC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftDynamicButtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftDynamicButtons.app/SwiftDynamicButtons";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3023BCC1A10022F00C9AC1F /* Build configuration list for PBXProject "SwiftDynamicButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3023BF11A10023000C9AC1F /* Debug */,
+				F3023BF21A10023000C9AC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3023BF31A10023000C9AC1F /* Build configuration list for PBXNativeTarget "SwiftDynamicButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3023BF41A10023000C9AC1F /* Debug */,
+				F3023BF51A10023000C9AC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3023BF61A10023000C9AC1F /* Build configuration list for PBXNativeTarget "SwiftDynamicButtonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3023BF71A10023000C9AC1F /* Debug */,
+				F3023BF81A10023000C9AC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F3023BD81A10022F00C9AC1F /* SwiftDynamicButtons.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F3023BD91A10022F00C9AC1F /* SwiftDynamicButtons.xcdatamodel */,
+			);
+			currentVersion = F3023BD91A10022F00C9AC1F /* SwiftDynamicButtons.xcdatamodel */;
+			path = SwiftDynamicButtons.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F3023BC91A10022F00C9AC1F /* Project object */;
+}
